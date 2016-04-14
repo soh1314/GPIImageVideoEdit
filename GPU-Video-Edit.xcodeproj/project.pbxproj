@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191B83731CBF6561002A8E4F /* FilterArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 191B83721CBF6561002A8E4F /* FilterArray.m */; };
 		1943729D1CBDE6A80081B04D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1943729C1CBDE6A80081B04D /* main.m */; };
 		194372A01CBDE6A80081B04D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1943729F1CBDE6A80081B04D /* AppDelegate.m */; };
 		194372A31CBDE6A80081B04D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372A21CBDE6A80081B04D /* ViewController.m */; };
@@ -15,6 +16,22 @@
 		194372AB1CBDE6A80081B04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 194372A91CBDE6A80081B04D /* LaunchScreen.storyboard */; };
 		194372B61CBDE6A80081B04D /* GPU_Video_EditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372B51CBDE6A80081B04D /* GPU_Video_EditTests.m */; };
 		194372C11CBDE6A80081B04D /* GPU_Video_EditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372C01CBDE6A80081B04D /* GPU_Video_EditUITests.m */; };
+		194372DB1CBDE7180081B04D /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 194372D61CBDE7040081B04D /* libGPUImage.a */; };
+		194372DD1CBDE71E0081B04D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194372DC1CBDE71E0081B04D /* CoreMedia.framework */; };
+		194372DF1CBDE7230081B04D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194372DE1CBDE7230081B04D /* CoreVideo.framework */; };
+		194372E11CBDE72A0081B04D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194372E01CBDE72A0081B04D /* AVFoundation.framework */; };
+		194372E31CBDE7450081B04D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194372E21CBDE7450081B04D /* QuartzCore.framework */; };
+		194372E51CBDE74F0081B04D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194372E41CBDE74F0081B04D /* OpenGLES.framework */; };
+		194372E71CBDE7FE0081B04D /* Square.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 194372E61CBDE7FE0081B04D /* Square.mp4 */; };
+		194372EE1CBDE8CD0081B04D /* CameraFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372ED1CBDE8CD0081B04D /* CameraFilterVC.m */; };
+		194372F11CBDE8DC0081B04D /* LocalVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372F01CBDE8DC0081B04D /* LocalVideoVC.m */; };
+		194372FF1CBDF5850081B04D /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372F71CBDF5850081B04D /* MBProgressHUD+MJ.m */; };
+		194373001CBDF5850081B04D /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 194372F81CBDF5850081B04D /* MBProgressHUD.bundle */; };
+		194373011CBDF5850081B04D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372FA1CBDF5850081B04D /* MBProgressHUD.m */; };
+		194373021CBDF5850081B04D /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 194372FC1CBDF5850081B04D /* ZYQAssetPicker.Bundle */; };
+		194373031CBDF5850081B04D /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 194372FE1CBDF5850081B04D /* ZYQAssetPickerController.m */; };
+		194373061CBE16480081B04D /* FilterChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 194373051CBE16480081B04D /* FilterChooseView.m */; };
+		194373681CBE33070081B04D /* LocalVideoEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 194373671CBE33070081B04D /* LocalVideoEditVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +49,32 @@
 			remoteGlobalIDString = 194372971CBDE6A80081B04D;
 			remoteInfo = "GPU-Video-Edit";
 		};
+		194372D51CBDE7040081B04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194372CF1CBDE7030081B04D /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		194372D71CBDE7040081B04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194372CF1CBDE7030081B04D /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		194372D91CBDE7120081B04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194372CF1CBDE7030081B04D /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191B83711CBF6561002A8E4F /* FilterArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterArray.h; sourceTree = "<group>"; };
+		191B83721CBF6561002A8E4F /* FilterArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterArray.m; sourceTree = "<group>"; };
 		194372981CBDE6A80081B04D /* GPU-Video-Edit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPU-Video-Edit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1943729C1CBDE6A80081B04D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1943729E1CBDE6A80081B04D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +91,29 @@
 		194372BC1CBDE6A80081B04D /* GPU-Video-EditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPU-Video-EditUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		194372C01CBDE6A80081B04D /* GPU_Video_EditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPU_Video_EditUITests.m; sourceTree = "<group>"; };
 		194372C21CBDE6A80081B04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194372CF1CBDE7030081B04D /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		194372DC1CBDE71E0081B04D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		194372DE1CBDE7230081B04D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		194372E01CBDE72A0081B04D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		194372E21CBDE7450081B04D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		194372E41CBDE74F0081B04D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		194372E61CBDE7FE0081B04D /* Square.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Square.mp4; sourceTree = "<group>"; };
+		194372EC1CBDE8CD0081B04D /* CameraFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFilterVC.h; sourceTree = "<group>"; };
+		194372ED1CBDE8CD0081B04D /* CameraFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFilterVC.m; sourceTree = "<group>"; };
+		194372EF1CBDE8DC0081B04D /* LocalVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalVideoVC.h; sourceTree = "<group>"; };
+		194372F01CBDE8DC0081B04D /* LocalVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalVideoVC.m; sourceTree = "<group>"; };
+		194372F61CBDF5850081B04D /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		194372F71CBDF5850081B04D /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		194372F81CBDF5850081B04D /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		194372F91CBDF5850081B04D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		194372FA1CBDF5850081B04D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		194372FC1CBDF5850081B04D /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		194372FD1CBDF5850081B04D /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		194372FE1CBDF5850081B04D /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		194373041CBE16480081B04D /* FilterChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterChooseView.h; sourceTree = "<group>"; };
+		194373051CBE16480081B04D /* FilterChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterChooseView.m; sourceTree = "<group>"; };
+		194373661CBE33070081B04D /* LocalVideoEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalVideoEditVC.h; sourceTree = "<group>"; };
+		194373671CBE33070081B04D /* LocalVideoEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalVideoEditVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +121,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194372E51CBDE74F0081B04D /* OpenGLES.framework in Frameworks */,
+				194372E31CBDE7450081B04D /* QuartzCore.framework in Frameworks */,
+				194372E11CBDE72A0081B04D /* AVFoundation.framework in Frameworks */,
+				194372DF1CBDE7230081B04D /* CoreVideo.framework in Frameworks */,
+				194372DD1CBDE71E0081B04D /* CoreMedia.framework in Frameworks */,
+				194372DB1CBDE7180081B04D /* libGPUImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +150,7 @@
 		1943728F1CBDE6A80081B04D = {
 			isa = PBXGroup;
 			children = (
+				194372CE1CBDE6DB0081B04D /* Frameworks */,
 				1943729A1CBDE6A80081B04D /* GPU-Video-Edit */,
 				194372B41CBDE6A80081B04D /* GPU-Video-EditTests */,
 				194372BF1CBDE6A80081B04D /* GPU-Video-EditUITests */,
@@ -101,10 +171,14 @@
 		1943729A1CBDE6A80081B04D /* GPU-Video-Edit */ = {
 			isa = PBXGroup;
 			children = (
+				194372F51CBDF5850081B04D /* MBProgressHUD */,
+				194372FB1CBDF5850081B04D /* ZYQAssetPickerController */,
+				194372E61CBDE7FE0081B04D /* Square.mp4 */,
 				1943729E1CBDE6A80081B04D /* AppDelegate.h */,
 				1943729F1CBDE6A80081B04D /* AppDelegate.m */,
 				194372A11CBDE6A80081B04D /* ViewController.h */,
 				194372A21CBDE6A80081B04D /* ViewController.m */,
+				194372EB1CBDE8CD0081B04D /* EditListVC */,
 				194372A41CBDE6A80081B04D /* Main.storyboard */,
 				194372A71CBDE6A80081B04D /* Assets.xcassets */,
 				194372A91CBDE6A80081B04D /* LaunchScreen.storyboard */,
@@ -140,6 +214,67 @@
 			path = "GPU-Video-EditUITests";
 			sourceTree = "<group>";
 		};
+		194372CE1CBDE6DB0081B04D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				194372E41CBDE74F0081B04D /* OpenGLES.framework */,
+				194372E21CBDE7450081B04D /* QuartzCore.framework */,
+				194372E01CBDE72A0081B04D /* AVFoundation.framework */,
+				194372DE1CBDE7230081B04D /* CoreVideo.framework */,
+				194372DC1CBDE71E0081B04D /* CoreMedia.framework */,
+				194372CF1CBDE7030081B04D /* GPUImage.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		194372D01CBDE7030081B04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194372D61CBDE7040081B04D /* libGPUImage.a */,
+				194372D81CBDE7040081B04D /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194372EB1CBDE8CD0081B04D /* EditListVC */ = {
+			isa = PBXGroup;
+			children = (
+				194372EC1CBDE8CD0081B04D /* CameraFilterVC.h */,
+				194372ED1CBDE8CD0081B04D /* CameraFilterVC.m */,
+				194372EF1CBDE8DC0081B04D /* LocalVideoVC.h */,
+				194372F01CBDE8DC0081B04D /* LocalVideoVC.m */,
+				194373041CBE16480081B04D /* FilterChooseView.h */,
+				194373051CBE16480081B04D /* FilterChooseView.m */,
+				191B83711CBF6561002A8E4F /* FilterArray.h */,
+				191B83721CBF6561002A8E4F /* FilterArray.m */,
+				194373661CBE33070081B04D /* LocalVideoEditVC.h */,
+				194373671CBE33070081B04D /* LocalVideoEditVC.m */,
+			);
+			path = EditListVC;
+			sourceTree = "<group>";
+		};
+		194372F51CBDF5850081B04D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				194372F61CBDF5850081B04D /* MBProgressHUD+MJ.h */,
+				194372F71CBDF5850081B04D /* MBProgressHUD+MJ.m */,
+				194372F81CBDF5850081B04D /* MBProgressHUD.bundle */,
+				194372F91CBDF5850081B04D /* MBProgressHUD.h */,
+				194372FA1CBDF5850081B04D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		194372FB1CBDF5850081B04D /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				194372FC1CBDF5850081B04D /* ZYQAssetPicker.Bundle */,
+				194372FD1CBDF5850081B04D /* ZYQAssetPickerController.h */,
+				194372FE1CBDF5850081B04D /* ZYQAssetPickerController.m */,
+			);
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,6 +289,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				194372DA1CBDE7120081B04D /* PBXTargetDependency */,
 			);
 			name = "GPU-Video-Edit";
 			productName = "GPU-Video-Edit";
@@ -232,6 +368,12 @@
 			mainGroup = 1943728F1CBDE6A80081B04D;
 			productRefGroup = 194372991CBDE6A80081B04D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 194372D01CBDE7030081B04D /* Products */;
+					ProjectRef = 194372CF1CBDE7030081B04D /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				194372971CBDE6A80081B04D /* GPU-Video-Edit */,
@@ -241,6 +383,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		194372D61CBDE7040081B04D /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 194372D51CBDE7040081B04D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		194372D81CBDE7040081B04D /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 194372D71CBDE7040081B04D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		194372961CBDE6A80081B04D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -248,7 +407,10 @@
 			files = (
 				194372AB1CBDE6A80081B04D /* LaunchScreen.storyboard in Resources */,
 				194372A81CBDE6A80081B04D /* Assets.xcassets in Resources */,
+				194373001CBDF5850081B04D /* MBProgressHUD.bundle in Resources */,
+				194372E71CBDE7FE0081B04D /* Square.mp4 in Resources */,
 				194372A61CBDE6A80081B04D /* Main.storyboard in Resources */,
+				194373021CBDF5850081B04D /* ZYQAssetPicker.Bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +435,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194373681CBE33070081B04D /* LocalVideoEditVC.m in Sources */,
+				194372FF1CBDF5850081B04D /* MBProgressHUD+MJ.m in Sources */,
+				194373061CBE16480081B04D /* FilterChooseView.m in Sources */,
 				194372A31CBDE6A80081B04D /* ViewController.m in Sources */,
+				191B83731CBF6561002A8E4F /* FilterArray.m in Sources */,
 				194372A01CBDE6A80081B04D /* AppDelegate.m in Sources */,
+				194373031CBDF5850081B04D /* ZYQAssetPickerController.m in Sources */,
 				1943729D1CBDE6A80081B04D /* main.m in Sources */,
+				194372EE1CBDE8CD0081B04D /* CameraFilterVC.m in Sources */,
+				194372F11CBDE8DC0081B04D /* LocalVideoVC.m in Sources */,
+				194373011CBDF5850081B04D /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +477,11 @@
 			isa = PBXTargetDependency;
 			target = 194372971CBDE6A80081B04D /* GPU-Video-Edit */;
 			targetProxy = 194372BD1CBDE6A80081B04D /* PBXContainerItemProxy */;
+		};
+		194372DA1CBDE7120081B04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImage;
+			targetProxy = 194372D91CBDE7120081B04D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -418,7 +593,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = "GPUImage/framework/**";
 				INFOPLIST_FILE = "GPU-Video-Edit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mh.GPU-Video-Edit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,7 +607,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				HEADER_SEARCH_PATHS = "GPUImage/framework/**";
 				INFOPLIST_FILE = "GPU-Video-Edit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mh.GPU-Video-Edit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +682,7 @@
 				194372C71CBDE6A80081B04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		194372C81CBDE6A80081B04D /* Build configuration list for PBXNativeTarget "GPU-Video-EditTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +691,7 @@
 				194372CA1CBDE6A80081B04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		194372CB1CBDE6A80081B04D /* Build configuration list for PBXNativeTarget "GPU-Video-EditUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +700,7 @@
 				194372CD1CBDE6A80081B04D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
